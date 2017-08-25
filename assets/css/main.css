@@ -1076,6 +1076,9 @@ section#posts {
 @media (max-width: 680px) {
   .container {
     width: 92% !important; }
+    .container .caja .top .conoce {
+      bottom: 40px !important;
+      right: -20px !important; }
     .container .caja:nth-child(3n+1) .top {
       background: #00556F !important; }
     .container .caja:nth-child(3n+2) .top {
@@ -1121,7 +1124,24 @@ section#footer {
           border-right: none;
           border-bottom: solid 1px #00556F;
           padding-bottom: 5px;
-          outline: none; }
+          outline: none;
+          color: #00556F; }
+        section#footer .container .form form .mc-field-group input::-webkit-input-placeholder {
+          font-family: 'Akkurat-Light';
+          font-weight: bolder;
+          color: #00556F !important; }
+        section#footer .container .form form .mc-field-group input::-moz-placeholder {
+          font-family: 'Akkurat-Light';
+          font-weight: bolder;
+          color: #00556F !important; }
+        section#footer .container .form form .mc-field-group input:-ms-input-placeholder {
+          font-family: 'Akkurat-Light';
+          font-weight: bolder;
+          color: #00556F !important; }
+        section#footer .container .form form .mc-field-group input::placeholder {
+          font-family: 'Akkurat-Light';
+          font-weight: bolder;
+          color: #00556F !important; }
       section#footer .container .form form #mc-embedded-subscribe {
         position: relative;
         top: -14px;
@@ -1136,7 +1156,8 @@ section#footer {
         border-bottom: solid 1px #00556F;
         border-radius: 0;
         padding-left: 0;
-        padding-bottom: 5px !important; }
+        padding-bottom: 5px !important;
+        color: #00556F; }
       section#footer .container .form form #mce-success-response {
         position: absolute;
         right: 50px;
