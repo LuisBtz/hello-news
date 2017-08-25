@@ -1,0 +1,102 @@
+section#posts
+    background-color: white
+    background-image: url('../img/bg-home-01.png')
+    background-position: 
+    background-attachment: fixed
+    background-size: cover
+    .container
+        width: 65%
+        margin: 0 auto 40px auto
+        .caja
+            margin-top: 40px
+            color: white
+            .top
+                padding: 20px
+                box-sizing: border-box
+                height: 150px
+                position: relative
+               
+                .time
+                    time
+                        font-size: .8em
+                        letter-spacing: 3px
+                .lead
+                    width: 50%
+                    h2
+                        font-size: 1.8em
+                        font-weight: lighter
+                        letter-spacing: 3px
+                .conoce
+                    width: 50%
+                    position: absolute
+                    bottom: 20px
+                    right: 0
+                    a
+                        color: white
+                        border-bottom: solid 1px white
+                        letter-spacing: 3px
+                        font-size: .8em
+
+            &:nth-child(6n+1)
+                .top
+                    background: $azul
+            &:nth-child(6n+2)
+                .top
+                    background: $azul
+
+
+            &:nth-child(6n+3)
+                .top
+                    background: $gris
+            &:nth-child(6n+4)
+                .top
+                    background: $gris
+
+            &:nth-child(6n+5)
+                .top
+                    background: $amarillo
+            &:nth-child(6n+6)
+                .top
+                    background: $amarillo
+            .bottom
+                position: relative
+                padding-bottom: 56.25% /* 16:9 */
+                padding-top: 25px
+                height: 0
+                iframe
+                    position: absolute
+                    top: 0
+                    left: 0
+                    width: 100%
+                    height: 100%
+                    overflow-y: hidden
+
+
+@media (max-width: 680px)
+    section#posts
+    .container
+        width: 92% !important
+        .caja
+            .top
+               
+                .time
+                    time
+                .lead
+                    h2
+                .conoce
+                    a
+            &:nth-child(3n+1)
+                .top
+                    background: $azul !important
+            &:nth-child(3n+2)
+                .top
+                    background: $gris !important
+            &:nth-child(3n+3)
+                .top
+                    background: $amarillo !important
+           
+            .bottom
+                iframe
+                    border-bottom: solid 1px $azul
+                    padding-bottom: 40px
+                    box-sizing: border-box

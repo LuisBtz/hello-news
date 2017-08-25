@@ -1,0 +1,128 @@
+section#footer
+    position: fixed
+    background: $gris
+    bottom: 0px
+    width: 100vw
+    height: 130px
+    z-index: 10
+    bottom: -130px
+    transition: all 800ms ease
+    .container
+        width: 81%
+        margin: 0 auto
+        color: $azul
+        .lead
+            max-width: 450px
+            h2
+                font-size: 2em
+                margin-left: 20px
+                letter-spacing: 3px
+        .form
+            margin-top: 50px
+            form
+                .mc-field-group
+                    float: left
+                    input
+                        width: 250px
+                        background: none
+                        border-top: none
+                        border-left: none
+                        border-right: none
+                        border-bottom: solid 1px $azul
+                        padding-bottom: 5px
+                        outline: none 
+                #mc-embedded-subscribe
+                    position: relative
+                    top: -14px
+                    width: 150px
+                    text-align: left
+                    text-transform: capitalize
+                    margin-left: 20px
+                    cursor: pointer
+                    border-top: none
+                    border-right: none
+                    border-left: none
+                    border-bottom: solid 1px $azul
+                    border-radius: 0
+                    padding-left: 0
+                    padding-bottom: 5px !important
+                #mce-success-response
+                    position: absolute
+                    right: 50px
+                    width: 200px
+                    bottom: 120px
+                    background: $gris
+                    padding: 20px
+                    text-align: center
+                    transition: all 1s ease
+@media (max-width: 1400px)
+    section#footer
+        .container
+            .lead
+                h2
+            .form
+                form
+                    .mc-field-group
+                        input
+                            width: 200px
+                    #mc-embedded-subscribe
+                        width: 100px
+                    #mce-success-response
+@media (max-width: 1100px)
+    section#footer
+        .container
+            .lead
+                margin-top: 30px
+                h2
+                    font-size: 1.5em
+            .form
+                margin-top: 30px
+                form
+                    .mc-field-group
+                        float: none !important
+                        input
+                            width: 200px
+                    #mc-embedded-subscribe
+                        margin-left: 0
+                        margin-top: 20px
+                        width: 200px
+                    #mce-success-response
+
+@media (max-width: 856px)
+    section#footer
+        .container
+            .lead
+                margin-top: 10px
+                h2
+                    font-size: 1.5em
+            .form
+                margin-top: 30px
+                form
+                    .mc-field-group
+                        float: none !important
+                        input
+                            width: 200px
+                    #mc-embedded-subscribe
+                        margin-left: 0
+                        margin-top: 20px
+                        width: 200px
+                    #mce-success-response
+@media (max-width: 680px)
+    section#footer
+        .container
+            .lead
+                margin-top: 30px
+                h2
+                    font-size: 1.5em
+            .form
+                margin-top: 30px
+                form
+                    .mc-field-group
+                        float: none !important
+                        input
+                            width: 100%
+                    #mc-embedded-subscribe
+                        margin-left: 0
+                        margin-top: 20px
+                        width: 100%
+                    #mce-success-response
