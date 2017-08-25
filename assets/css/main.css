@@ -1022,60 +1022,58 @@ section#posts {
   section#posts .container {
     width: 65%;
     margin: 0 auto 40px auto; }
-    section#posts .container .row {
-      margin-left: auto !important; }
-      section#posts .container .row .caja {
-        margin-top: 40px;
-        color: white; }
-        section#posts .container .row .caja .top {
-          padding: 20px;
-          -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-          height: 150px;
-          position: relative; }
-          section#posts .container .row .caja .top .time time {
-            font-size: .8em;
+    section#posts .container .row .caja {
+      margin-top: 40px;
+      color: white; }
+      section#posts .container .row .caja .top {
+        padding: 20px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        height: 150px;
+        position: relative; }
+        section#posts .container .row .caja .top .time time {
+          font-size: .8em;
+          letter-spacing: 3px; }
+        section#posts .container .row .caja .top .lead {
+          width: 50%; }
+          section#posts .container .row .caja .top .lead h2 {
+            font-size: 1.8em;
+            font-weight: lighter;
             letter-spacing: 3px; }
-          section#posts .container .row .caja .top .lead {
-            width: 50%; }
-            section#posts .container .row .caja .top .lead h2 {
-              font-size: 1.8em;
-              font-weight: lighter;
-              letter-spacing: 3px; }
-          section#posts .container .row .caja .top .conoce {
-            width: 50%;
-            position: absolute;
-            bottom: 20px;
-            right: 0; }
-            section#posts .container .row .caja .top .conoce a {
-              color: white;
-              border-bottom: solid 1px white;
-              letter-spacing: 3px;
-              font-size: .8em; }
-        section#posts .container .row .caja:nth-child(6n+1) .top {
-          background: #00556F; }
-        section#posts .container .row .caja:nth-child(6n+2) .top {
-          background: #00556F; }
-        section#posts .container .row .caja:nth-child(6n+3) .top {
-          background: #D4DBE4; }
-        section#posts .container .row .caja:nth-child(6n+4) .top {
-          background: #D4DBE4; }
-        section#posts .container .row .caja:nth-child(6n+5) .top {
-          background: #DCE442; }
-        section#posts .container .row .caja:nth-child(6n+6) .top {
-          background: #DCE442; }
-        section#posts .container .row .caja .bottom {
-          position: relative;
-          padding-bottom: 56.25%;
-          padding-top: 25px;
-          height: 0; }
-          section#posts .container .row .caja .bottom iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            overflow-y: hidden; }
+        section#posts .container .row .caja .top .conoce {
+          width: 50%;
+          position: absolute;
+          bottom: 20px;
+          right: 0; }
+          section#posts .container .row .caja .top .conoce a {
+            color: white;
+            border-bottom: solid 1px white;
+            letter-spacing: 3px;
+            font-size: .8em; }
+      section#posts .container .row .caja:nth-child(6n+1) .top {
+        background: #00556F; }
+      section#posts .container .row .caja:nth-child(6n+2) .top {
+        background: #00556F; }
+      section#posts .container .row .caja:nth-child(6n+3) .top {
+        background: #D4DBE4; }
+      section#posts .container .row .caja:nth-child(6n+4) .top {
+        background: #D4DBE4; }
+      section#posts .container .row .caja:nth-child(6n+5) .top {
+        background: #DCE442; }
+      section#posts .container .row .caja:nth-child(6n+6) .top {
+        background: #DCE442; }
+      section#posts .container .row .caja .bottom {
+        position: relative;
+        padding-bottom: 56.25%;
+        padding-top: 25px;
+        height: 0; }
+        section#posts .container .row .caja .bottom iframe {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          overflow-y: hidden; }
 
 @media (max-width: 680px) {
   .container {

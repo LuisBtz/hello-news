@@ -1,4 +1,9 @@
 jQuery(document).ready(function($) {
+
+  setTimeout(function() {
+    $('#mce-error-response').fadeOut('fast');
+    $('#mce-success-response').fadeOut('fast');
+  }, 10000); // <-- time in milliseconds
   
   // Hamburger button
   $('.ham').on('click', function() {
@@ -131,3 +136,4 @@ function hasScrolled() {
     
     lastScrollTop = st;
 }
+
