@@ -611,9 +611,11 @@ section#home {
           float: left;
           position: relative;
           left: 18%; }
-          section#home .container .video-top .text .menu .lead h2 {
-            font-weight: lighter;
-            font-size: 3em; }
+          section#home .container .video-top .text .menu .lead a {
+            color: white; }
+            section#home .container .video-top .text .menu .lead a h2 {
+              font-weight: lighter;
+              font-size: 3em; }
         section#home .container .video-top .text .menu .busqueda {
           float: left;
           margin-top: 37px;

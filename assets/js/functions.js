@@ -34,19 +34,7 @@ jQuery(document).ready(function($) {
 
 
 
-  $('.play').on('click', function(){
-    $('.play').fadeOut(300);
-    $('.img').fadeOut(300);
-    $('.video').html('<iframe width="560" height="315" src="https://www.youtube.com/embed/AhcttcXcRYY?rel=0&amp;controls=0&amp;showinfo=0;autoplay=1;" frameborder="0" allowfullscreen></iframe>');
 
-    $('.gradient .top').fadeOut(300);
-    $('.gradient .bottom').fadeOut(300);
-    $('.text .menu').css('top', '-500px');
-    $('.text .bottom').hide(400);
-    $('.logo svg').css("fill", "#ffffff");
-    $('.x').fadeIn(300);
-    
-  });
 
   $('.x').on('click', function(){
     $('.play').fadeIn(300);
