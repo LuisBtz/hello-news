@@ -1,0 +1,537 @@
+section#menupost
+    .container
+        width: 100vw
+        .video-top
+            height: 100%
+            .logo
+                position: fixed
+                float: left
+                top: 43px
+                left: 5%
+                z-index: 2
+                svg
+                    fill: $azul 
+                    width: 35px
+            .text
+                .overlaymenu
+                    display: none
+                    height: 130px
+                    width: 100vw
+                    background: white
+                    z-index: 2
+                    position: fixed
+                .menu
+                    display: block
+                    width: 100%
+                    letter-spacing: 3px
+                    top: 0
+                    position: fixed
+                    left: 0%
+                    right: 5%
+                    z-index: 3
+                    transition: all 1s ease
+                    .ham
+                        display: none
+                        position: absolute
+                        z-index: 5
+                        top: 30px
+                        right: 20px
+                        width: 30px
+                        color: red
+                        .line
+                            display: none
+                            width: 100%
+                            height: 3px
+                            margin-bottom: 10px
+                            background: $azul
+                            z-index: 100
+                    
+                    .lead
+                        margin-top: 30px
+                        line-height: 0
+                        float: left
+                        position: relative
+                        left: 18%
+                        h2
+                            font-weight: lighter
+                            font-size: 3em
+                            color: $azul
+                    .busqueda
+                        float: left
+                        margin-top: 37px
+                        position: absolute
+                        left: 40%
+                        color: $azul
+                        p
+                            cursor: pointer
+                            font-weight: lighter
+                            font-size: .9em
+                            text-transform: uppercase
+                        form
+                            padding-bottom: 30px
+                            input
+                                display: none
+                                margin-top: 15px
+                                background: none
+                                border-bottom: solid 1px $azul
+                                outline: none
+                                border-top: none
+                                border-left: none
+                                border-right: none
+                    .busquedam
+                        display: none
+                        margin-top: 30px
+                        position: absolute
+                        p
+                            font-weight: lighter
+                            font-size: 1em
+                            text-transform: uppercase
+                            letter-spacing: 5px
+                        form
+                            position: relative
+                            input
+                                color: $azul
+                                padding-bottom: 10px
+                                width: 90vw
+                                margin-top: 0px
+                                background: none
+                                border-bottom: solid 1px $azul
+                                letter-spacing: 3px
+                                outline: none
+                                border-top: none
+                                border-left: none
+                                border-right: none
+                            img
+                                width: 50px !important
+                                position: absolute
+                                top: 5px
+                                right: 0
+                                cursor: pointer
+                    .filtro
+                        margin-top: 37px
+                        float: left
+                        position: absolute
+                        left: 51%
+                        p
+                            color: $azul
+                            font-weight: lighter
+                            font-size: .9em
+                            text-transform: uppercase
+                    .filtrom
+                        display: none
+                        margin-top: 7px
+                        float: left
+                        position: absolute
+                        left: 20px
+                        top: 270px
+                        p
+                            font-weight: lighter
+                            font-size: .9em
+                            text-transform: uppercase
+                    .siguenosm
+                        display: none
+                        margin-top: 7px
+                        position: static
+                        width: 300px
+                        p
+                            font-weight: lighter
+                            font-size: .9em
+                            text-transform: uppercase
+                        .redesm
+                            margin-top: 15px
+                            svg
+                                fill: $azul
+                                width: 15px
+                                margin-right: 20px
+                    .siguenos
+                        margin-top: 37px
+                        position: absolute
+                        left: 61%
+                        float: left
+                        p
+                            color: $azul
+                            font-weight: lighter
+                            font-size: .9em
+                            text-transform: uppercase
+                        .redes
+                            margin-top: 15px
+                            display: none
+                            svg
+                                fill: $azul
+                                width: 15px
+                                margin-right: 20px
+                .menuh
+                    height: 400px !important
+section#homepost
+    background-color: white
+    background-image: url('../img/bg-home-01.png')
+    background-position: 
+    background-attachment: fixed
+    background-size: cover
+    color: $azul
+    .container
+        width: 55%
+        margin: 0 auto
+        .iframe
+            .video
+                margin-top: 150px
+                position: relative
+                padding-bottom: 56.25% /* 16:9 */
+                padding-top: 25px
+                height: 0
+                iframe
+                    position: absolute
+                    top: 0
+                    left: 0
+                    width: 100%
+                    height: 100%
+                    overflow-y: hidden
+        .meta
+            .timepost
+                margin-top: 30px
+                time
+                    font-size: .9em
+                    margin-left: -40px !important
+            .left
+                .leadpost
+                    h1
+                        margin-left: -40px !important
+                        font-size: 3.6em
+                        font-weight: lighter
+                .descriptionpost
+                    p
+                        font-size: 1.2em
+                        letter-spacing: 2px
+            .right
+        .share
+            .facebook
+                margin-left: -40px
+            .twitter
+                margin-left: 5%
+        .content
+            padding-bottom: 50px
+            .texto
+                margin-left: -40px
+                p
+                    font-size: 1.2em
+            .imagen
+                img
+                    margin-top: 30px
+                    width: 100%
+@media (max-width: 1300px)
+    section#homepost
+        .container
+            width: 70% !important
+            margin: 0 auto
+            .iframe
+                .video
+                    iframe
+            .meta
+                .timepost
+                    time
+                .left
+                    .leadpost
+                        h1
+                    .descriptionpost
+                        p
+                .right
+            .share
+                .facebook
+                .twitter
+            .content
+                .texto
+                    p
+                .imagen
+                    img
+@media (max-width: 1000px)
+    section#homepost
+        .container
+            width: 80% !important
+            margin: 0 auto
+            .iframe
+                .video
+                    iframe
+            .meta
+                .timepost
+                    time
+                .left
+                    .leadpost
+                        h1
+                    .descriptionpost
+                        p
+                .right
+            .share
+                .facebook
+                .twitter
+            .content
+                .texto
+                    p
+                .imagen
+                    img
+@media (max-width: 680px)
+    section#homepost
+        padding-top: 10px !important
+        .container
+            width: 80% !important
+            margin: 0 auto
+            .iframe
+                .video
+                    margin-left: 40px
+                    iframe
+            .meta
+                .timepost
+                    margin-left: 40px !important
+                    time
+                .left
+                    .leadpost
+                        margin-left: 40px !important
+                        h1
+                    .descriptionpost
+                        p
+                .right
+            .share
+                margin-top: 30px
+                margin-bottom: 30px
+                margin-left: 40px !important
+                .facebook
+                .twitter
+            .content
+                margin-left: 40px !important
+                .texto
+                    p
+                .imagen
+                    margin-left: -40px !important
+                    img
+
+@media (max-width: 1200px) 
+    section#menupost
+        .container
+            .video-top
+                .play
+                    img
+                .logo
+                .x
+                .text
+                    .menu
+                        .ham
+                        .lead
+                            left: 18%
+                            h2
+                                font-weight: lighter
+                                font-size: 3em
+                        .busqueda
+                            left: 52%
+                            p
+                            form
+                        .busquedam
+                            form
+                        .filtro
+                            left: 67%
+                            p
+                        .filtrom
+                            p
+                        .siguenosm
+                        .siguenos
+                            position: absolute
+                            left: 81%
+                            float: left
+                            p
+                                font-weight: lighter
+                                font-size: .9em
+                                text-transform: uppercase
+                            .redes
+                                margin-top: 15px
+                                display: none
+                                svg
+                                    fill: white
+                                    width: 15px
+                                    margin-right: 20px
+                    .menuh
+                        height: 400px !important
+                    
+@media (min-width: 680px)
+    section#menupost
+        .container
+            .scroll
+                .logo
+                    z-index: 10
+                    svg
+                        fill: $azul !important
+                .menu
+                    height: 130px
+                    z-index: 100
+                    position: fixed
+                    .lead
+                            h2
+                                color: $azul
+                    .busqueda
+                            p
+                                color: $azul
+                            form
+                                input
+                                    color: $azul
+                                    border-bottom: solid 1px $azul !important
+                    .filtro
+                            p
+                                color: $azul
+                    .siguenos
+                        p
+                            color: $azul
+                        .redes
+                            svg
+                                fill: $azul !important
+            .video-top
+                .play
+                    img
+                
+                .x
+                    z-index: 10
+                    top: 35px
+                    svg
+                        width: 25px
+                .text
+                    .menu
+                        .ham
+                            .line
+                            .linex
+                                &:first-child
+                                &:last-child
+                                &:nth-child(2)
+                        
+                        .busquedam
+                        
+                        .filtrom
+                        
+                        .siguenosm
+                            p
+                            .redesm
+                                svg
+@media (max-width: 680px) 
+    section#menupost
+        .container
+            .video-top
+                .play
+                    img
+                .logo
+                    top: 35px
+                    left: 20px !important
+                    z-index: 6
+                    svg
+                        width: 25px
+                        fill: $azul 
+                    .blanco
+                        fill: $white
+                .x
+                    z-index: 10
+                    top: 35px
+                    svg
+                        width: 25px
+                .text
+                    .overlaymenu
+                        display: none
+                    .menu
+                        display: block
+                        overflow-y: hidden
+                        height: 90px
+                        background: white
+                        color: $azul
+                        width: 100vw
+                        letter-spacing: 3px
+                        top: 0
+                        position: fixed
+                        left: 0
+                        right: 0
+                        z-index: 2
+                        transition: all 1s ease
+                        z-index: 5
+                        .ham
+                            display: block !important
+                            .line
+                                display: block
+                                transition: all 1s ease
+                            .linex
+                                position: relative
+                                transition: all 1s ease
+                                &:first-child
+                                    transform: rotate(45deg)
+                                    top: 10px
+                                    position: absolute
+                                &:last-child
+                                    transform: rotate(-45deg)
+                                    bottom: -10px
+                                    position: absolute
+                                &:nth-child(2)
+                                    opacity: 0
+                        .lead
+                            line-height: 0
+                            float: left
+                            position: relative
+                            left: 50%
+                            top: -10px
+                            transform: translate(-50%)
+                            h2
+                                font-weight: lighter
+                                font-size: 3em
+                        .busquedam
+                             display: block
+                             left: 20px
+                             top: 150px
+                        .busqueda
+                            display: none
+                            margin-top: 7px
+                            top: 200px
+                            left: 20px
+                            p
+                                display: block
+                                cursor: pointer
+                                font-weight: lighter
+                                font-size: .9em
+                                text-transform: uppercase
+                            form
+                                padding-bottom: 30px
+                                input
+                                    display: none
+                                    margin-top: 15px
+                                    background: none
+                                    border-bottom: solid 1px white
+                                    outline: none
+                                    border-top: none
+                                    border-left: none
+                                    border-right: none
+                        .filtrom
+                            display: block
+                        .filtro
+                            display: none
+                            margin-top: 7px
+                            float: none
+                            position: static !important
+                            left: 0
+                            p
+                                font-weight: lighter
+                                font-size: .9em
+                                text-transform: uppercase
+                        .siguenosm
+                            display: block
+                            margin-top: 7px
+                            position: relative !important
+                            z-index: 5 !important
+                            left: 20px
+                            top: 90px
+                            p
+                                display: block
+                                font-weight: lighter
+                                font-size: 1em
+                                text-transform: uppercase
+                                letter-spacing: 5px
+                                position: absolute
+                            .redesm
+                                margin-top: 15px
+                                display: block
+                                position: absolute
+                                top: 20px
+                                svg
+                                    fill: $azul
+                                    width: 15px
+                                    margin-right: 20px
+                        .siguenos
+                            display: none

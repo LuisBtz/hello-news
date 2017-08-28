@@ -16,27 +16,30 @@ section#posts
                     box-sizing: border-box
                     height: 150px
                     position: relative
+                    width: 100%
                 
                     .time
+                        margin-top: -10px
                         time
                             font-size: .8em
                             letter-spacing: 3px
                     .lead
-                        width: 50%
+                        margin-top: -20px
+                        width: 65%
                         h2
-                            font-size: 1.8em
+                            font-size: 2.4em
                             font-weight: lighter
                             letter-spacing: 3px
                     .conoce
-                        width: 50%
                         position: absolute
                         bottom: 20px
-                        right: 0
+                        right: 50px
                         a
                             color: white
                             border-bottom: solid 1px white
                             letter-spacing: 3px
                             font-size: .8em
+                            font-weight: lighter
 
                 &:nth-child(6n+1)
                     .top
@@ -73,6 +76,37 @@ section#posts
                         overflow-y: hidden
 
 
+@media (max-width: 1190px)
+    section#posts
+    .container
+        .caja
+            .top
+               
+                .time
+                    time
+                .lead
+                    width: 80% !important
+                    h2
+                        font-size: 1.8em !important
+                .conoce
+                    a
+
+@media (max-width: 1000px)
+    section#posts
+    .container
+        .caja
+            .top
+               
+                .time
+                    time
+                .lead
+                    width: 80% !important
+                    h2
+                .conoce
+                    position: absolute
+                    bottom: 20px
+                    right: 20px !important
+                    a
 @media (max-width: 680px)
     section#posts
     .container
@@ -83,9 +117,13 @@ section#posts
                 .time
                     time
                 .lead
+                    width: 50% !important
                     h2
+                        font-size: 2.4em !important
                 .conoce
-                    bottom: 40px !important
+                    position: absolute
+                    bottom: 20px
+                    right: 20px !important
                     a
             &:nth-child(3n+1)
                 .top
